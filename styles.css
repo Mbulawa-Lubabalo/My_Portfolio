@@ -1,0 +1,15 @@
+
+.about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
