@@ -1,4 +1,19 @@
 
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30%;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
 .about_me {
     display: flex;
     align-items: center;
