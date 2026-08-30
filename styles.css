@@ -8,9 +8,19 @@ body {
     background-color: #2E3033;
 }
 
+section {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+h2 {
+    color: #1ed7e4;
+}
+
 .header {
     display: flex;
     text-align: center;
+    margin: 0;
 }
 .header div {
     display: flex;
@@ -65,21 +75,6 @@ body {
     gap: 5%;
 }
 
-.contact_form {
-    display: flex;
-    gap: 10px;
-}
-.contact_form form {
-    display: flex;
-    flex-direction: column;
-}
-.contact_form h4 {
-    flex: 1;
-}
-.contact_form div {
-    flex: 1;
-}
-
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -96,4 +91,34 @@ body {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+.project-list li .technologies {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 5%; 
+}
+.project-list li .links {
+    margin: 5px;    
+}
+.project-list li .links a {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #1ed7e4;
+}
+
+.contact_form {
+    display: flex;
+    gap: 10px;
+}
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact_form h4 {
+    flex: 1;
+}
+.contact_form div {
+    flex: 1;
 }

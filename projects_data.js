@@ -13,6 +13,6 @@ export const projects = [
         video: "video/supermarket.mp4",
         technologies: ["Java", "JavaScript" , "HTML" , "CSS"],
         liveLink: "#",
-        githubLink: "#"
+        githubLink: "https://github.com/Mbulawa-Lubabalo/Supermarket"
     }
 ];
