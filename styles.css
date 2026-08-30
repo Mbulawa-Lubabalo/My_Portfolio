@@ -34,6 +34,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
+}
+
+.skills ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5%;
 }
 
 .headshot {
