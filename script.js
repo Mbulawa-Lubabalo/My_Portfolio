@@ -5,6 +5,7 @@ const container = document.getElementById("project-list-container");
 const projectHTMLArray = projects.map(project => {
     return `
         <li>
+            <video src="${project.video}" controls></video>
             <h3>${project.title}</h3>
             <p>${project.description}</p>
             <div class="technologies">
