@@ -1,16 +1,20 @@
 
 body {
+    color: ivory;
     font-family: Arial, sans-serif;
     margin-right: 15%;
     margin-left: 15%;
     padding: 0;
+    background-color: #2E3033;
 }
 
 .header {
     display: flex;
-    justify-content: center;
     text-align: center;
-    gap: 25%;
+}
+.header div {
+    display: flex;
+    flex: 1;
 }
 
 .hero {
@@ -20,6 +24,12 @@ body {
 
 .hero div {
     flex: 1;
+}
+
+.headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .nav_links {
@@ -43,8 +53,17 @@ body {
     gap: 5%;
 }
 
-.headshot {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
+.contact_form {
+    display: flex;
+    gap: 10px;
+}
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact_form h4 {
+    flex: 1;
+}
+.contact_form div {
+    flex: 1;
 }
