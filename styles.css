@@ -19,15 +19,27 @@ body {
 
 .hero {
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 .hero div {
     flex: 1;
 }
+.hero ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 10%;
+}
+.hero ul li {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #1ed7e4;
+}
 
 .headshot {
-    width: 200px;
+    width: 90%;
     height: auto;
     border-radius: 50%;
 }
@@ -66,4 +78,17 @@ body {
 }
 .contact_form div {
     flex: 1;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    list-style-type: none;
+}
+.project-list li {
+    flex: 1 1 calc(33.333% - 10px);
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }

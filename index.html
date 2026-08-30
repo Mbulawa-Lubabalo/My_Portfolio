@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lubabalo Mbulawa</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
 </head>
 <body>
     <section class="header">
@@ -26,11 +27,18 @@
         <div>
             <h1>Hello,<br>I'm Lubabalo Mbulawa</h1>
             <p>Software Developer | Web Developer | Problem Solver</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/lubabalo-mbulawa/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/lubabalombulawa" target="_blank">GitHub</a></li>
+                <li><a href="documents/Lubabalo_Mbulawa_Resume_WebDev.pdf" download>Download Resume</a></li>
+            </ul>
         </div>
         <div>
-            <img src="image/head_shot.JPG" alt="headshot" class="headshot">
+            <img src="image/headShot.png" alt="headshot" class="headshot">
         </div>
     </section>
+
+    <hr class="separator-line">
 
     <section class="about_me">
         <div>
@@ -40,6 +48,8 @@
             </p>
         </div>
     </section>
+
+    <hr class="separator-line">
 
     <section class="skills">
         <h2>Skills</h2>
@@ -79,10 +89,14 @@
         </div>
     </section>
 
+    <hr class="separator-line">
+
     <section class="projects">
         <h2>Projects</h2>
-        <div></div>
+        <ul id="project-list-container" class="project-list"></ul>
     </section>
+
+    <hr class="separator-line">
 
     <section  class="contact">
         <p>Contact</p>
