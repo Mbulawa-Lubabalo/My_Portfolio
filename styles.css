@@ -11,20 +11,45 @@ body {
 section {
     margin-bottom: 5%;
     margin-top: 5%;
+    margin-left: 1%;
 }
 
 h2 {
     color: #1ed7e4;
 }
 
+h4 {
+    text-decoration: underline;
+    text-decoration-color: #3182CE;
+    text-underline-offset: 4px;
+}
+
 .header {
     display: flex;
     text-align: center;
     margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: #2E3033;
 }
 .header div {
     display: flex;
     flex: 1;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: #1ed7e4;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 .hero {
@@ -52,14 +77,6 @@ h2 {
     width: 90%;
     height: auto;
     border-radius: 50%;
-}
-
-.nav_links {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    padding: 10px;
-    list-style-type: none;
 }
 
 .about_me {
