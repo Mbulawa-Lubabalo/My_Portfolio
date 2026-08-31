@@ -14,7 +14,7 @@ section {
     margin-left: 1%;
 }
 
-h2 {
+h2{
     color: #1ed7e4;
 }
 
@@ -124,6 +124,9 @@ h4 {
     border-radius: 5px;
     background-color: #1ed7e4;
 }
+.project-list li h3 {
+    color:#1ed7e4;
+}
 
 .contact_form {
     display: flex;
@@ -133,9 +136,32 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+.contact_form form input, .contact_form form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #1ed7e4;
+    color: ivory;
+}
 .contact_form h4 {
     flex: 1;
 }
 .contact_form div {
     flex: 1;
+}
+
+button {
+    width: 20%;
+    padding: 2%;
+    background: inherit;
+    border: 2px solid #1ed7e4;
+    border-radius: 5px;
+    color: ivory;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #3182CE;
+    color: #000;
+    outline: none;
 }
