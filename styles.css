@@ -90,6 +90,8 @@ h4 {
     display: flex;
     list-style-type: none;
     gap: 5%;
+    font-weight: bold;
+
 }
 
 .project-list {
