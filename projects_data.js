@@ -12,7 +12,7 @@ export const projects = [
         description: "A lightweight Java-based REST API that connects to a Supabase database to manage products. Built using the Java Standard Library (HttpServer, HttpClient) and Jackson for JSON handling.",
         video: "video/supermarket.mp4",
         technologies: ["Java", "JavaScript" , "HTML" , "CSS"],
-        liveLink: "#",
+        liveLink: "https://mbulawa-lubabalo.github.io/Supermarket/",
         githubLink: "https://github.com/Mbulawa-Lubabalo/Supermarket"
     }
 ];
